@@ -5,21 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "d692515312741702751ad5525dbd91c3"
+        API_ID = 2469678
+        BOT_TOKEN = "1742944982:AAFzrgVz0nv9p3LjEToJqtsqM24ULkaz654"
+        BASE_URL_OF_BOT = "https://helohelo.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-521884514]
+        OWNER_ID = 1317637067
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
-
+        GD_INDEX_URL = https://drive.dragondrive1233.workers.dev/0:/Anime
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
 
@@ -36,19 +35,19 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://wekmbjpdygvcjf:740b6b6e5b95a58ff4a94f17e802a67bd7a7e618ad15b90f0480d6b9bf9248b9@ec2-52-23-40-80.compute-1.amazonaws.com:5432/dckoi5eaj9jgg0"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
-        MEGA_API = "BCJ1WQqS"
+        MEGA_API = ""
         MEGA_UNAME = None
         MEGA_PASS = None
 
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "/usr/src/app/rclone.conf"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -56,7 +55,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
@@ -65,17 +64,17 @@ except:
         RCLONE_CONFIG = False
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "Becky Rich"
 
         # Max size of a playlist that is allowed (Number of videos)
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 0
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "" 
+        BOT_CMD_POSTFIX = "@helohellobot" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
