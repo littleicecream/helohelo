@@ -8,7 +8,7 @@ except:
         API_HASH = "d692515312741702751ad5525dbd91c3"
         API_ID = 2469678
         BOT_TOKEN = "1742944982:AAFzrgVz0nv9p3LjEToJqtsqM24ULkaz654"
-        BASE_URL_OF_BOT = "https://helohelo.herokuapp.com"
+        BASE_URL_OF_BOT = "http://t.me/helohellobot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
